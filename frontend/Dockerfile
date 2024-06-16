@@ -9,7 +9,7 @@ COPY . /frontend
 RUN rm -rf .git/
 RUN rm -rf node_modules
 
-RUN yarn install
+RUN npm install
 
 # RUN npx nuxi upgrade --force
 
